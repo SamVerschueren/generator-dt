@@ -1,0 +1,43 @@
+{
+  "name": "generator-dt",
+  "version": "0.0.0",
+  "description": "Scaffold out the DefinitelyTyped file structure",
+  "license": "MIT",
+  "repository": "SamVerschueren/generator-dt",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "plugin",
+    "boilerplate",
+    "template",
+    "scaffold",
+    "typings",
+    "definitelytyped",
+    "dt",
+    "typescript"
+  ],
+  "dependencies": {
+    "camelcase": "^4.0.0",
+    "package-json": "^2.4.0",
+    "yeoman-generator": "^1.0.1"
+  },
+  "devDependencies": {
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}

@@ -1,0 +1,1 @@
+import <%= moduleIdentifier %> = require('<%= moduleName %>');
